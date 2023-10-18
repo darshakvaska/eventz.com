@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Success</title>
+    </head>
+    <style>
+        .back-video{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index:-1;
+
+        }
+        @media (min-aspect-ratio:16/9){
+            .back-video{
+                width: 100%;
+                height: auto;
+            }
+        }
+        @media (max-aspect-ratio:16/9){
+            .back-video{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .one{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 710px;
+        
+        }
+        p{
+            text-align: center;
+            font-size: xx-large;
+        }
+        .img{
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            margin-left: 680px;
+            margin-top: 5px;
+        }
+        .btn{
+                    display: inline-block;
+                    padding: 15px 30px; /* Adjust padding as needed */
+                    background-color: green; /* Button background color */
+                    color: white; /* Button text color */
+                    text-decoration: none; /* Remove underline from the link */
+                    border: 2px solid green;
+                    border-radius: 20px; /* Rounded corners */
+                    cursor: pointer; /* Show a pointer cursor on hover */
+                    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+                    margin-left: 690px;
+                    margin-top: -30px;
+                }
+    </style>
+    <body action="/popup" method="post">
+        <div>
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="https://cdn.glitch.global/3382433b-48b1-4613-944b-7f43f5c41566/vecteezy_confetti-party-popper-explosions-on-a-green-background_2850190.mp4?v=1697081717154" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <img src="https://cdn.glitch.global/73378d51-e63a-49c9-8d37-1a557de3a582/tick.png?v=1692522049732" class="img">
+            <p>THANK YOU</br>
+            Your Registration is Successfully completed</br>
+            And your detials has been recived to us<br>
+            we will get in touch soon<br>Thank You!!</p>
+            <a href="/home" class="btn">LOG OUT</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #666;
+}
+
+p:last-child {
+    margin-bottom: 40px;
+}
+
+p.email, p.phone, p.address {
+    font-weight: bold;
+}
+
+p.email::before {
+    content: '\2709';
+    margin-right: 10px;
+}
+
+p.phone::before {
+    content: '\260E'; 
+    margin-right: 10px;
+}
+
+p.address::before {
+    content: '\1F3E1'; 
+    margin-right: 10px;
+}
+.head{
+    background-color: #333;
+    padding: 100px 100px;
+}
+.head h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+</style>
+<body>
+
+    <div class="head">
+        <h1>CONTACT US</h1>
+    </div>
+    <div>
+        <p>If you have any questions or feedback, please feel free to contact us using the form below.</p>
+
+        <p>We look forward to hearing from you!</p>
+
+        <p><b>Email:</b> contact@example.com</p>
+        <p><b>Phone:</b> (123) 456-7890</p>
+        <p><b>Address:</b> 123 Main Street, City, Country</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>events page</title>
+    </head>
+    <main>
+        <style>
+                body{
+                    background-image: url("https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/pexels-codioful-(formerly-gradienta)-7130497.jpg?v=1696946555111");
+                }
+                .sup {
+                    text-align: center;
+                    margin-top: -22px;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                }
+
+                .image-container {
+                    display: grid;
+                    grid-template-columns: repeat(2, 3fr); 
+                    gap: 10px; 
+                    grid-auto-rows: 300px;
+                    margin-top: 50px;
+                }
+
+                .image-container img {
+                    max-width: 100%; 
+                    height: auto; 
+                    width: 75%; 
+                    max-height: 300px;
+                    margin-left: 75px;
+                    border-radius: 20px;
+                }
+        </style>
+        <body method="get" action="/events">
+            <div class="sup">
+                <h1><u>EVENTS</u></h1>
+                <div class="image-container">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-asad-photo-maldives-169198.jpg?v=1696855477582"><br><h3>WEDDINGS</h3>
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-thirdman-7600387.jpg?v=1696855519953"><br><h3>BIRTHDAYS</h3>
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-pixabay-265856.jpg?v=1696855550602"><br><h3>ENGAGEMENTS</h3>
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-matheus-bertelli-16935894.jpg?v=1696855583464"><br><h3>DINNER PARTIES</h3>
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-rdne-stock-project-9214972.jpg?v=1696855624555"><br><h3>BABY SHOWER</h3>
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-cottonbro-studio-3171837.jpg?v=1696856271253"><br><h3>PRIVATE PARTIES</h3>
+                </div>
+            </div>
+        </body>
+    </main>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>themes page</title>
+    </head>
+    <style>
+        body{
+            background-image: url("https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/bg.jpg?v=1696951714456");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        /* Style the headings */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Style the image containers */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 40px;
+        }
+
+        /* Style the images */
+        .image-container img {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            margin-bottom: 10px;
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        /* Group the images under headings */
+        .image-container h1 {
+            width: 100%;
+            text-align: left;
+        }
+
+    </style>
+    <body action="/theme" method="get">
+        <div class="sup">
+            <h1><u>THEMES</u></h1>
+            <div class="image-container">
+                <h1>BIRTHDAY THEMES</h1>
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme1.jpeg?v=1696949511325">
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme2.jpg?v=1696949559243">
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme3.jpg?v=1696949592780">
+                <h1>WEDDING THEMES</h1>
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme4.jpg?v=1696949637506">
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme5.jpg?v=1696949691509">
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme6.webp?v=1696949737658">
+                <h1>ENGAGEMENT THEMES</h1>
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme7.jpg?v=1696949800409">
+                <h1>DINNER PARTY THEMES</h1>
+                <img src="https://cdn.glitch.global/92651dde-7045-4141-b58b-98886251c4cb/theme8.jpg?v=1696949831523">
+            </div>
+        </div>
+    </body>
+</html>
