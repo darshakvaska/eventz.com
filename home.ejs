@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <title>Home Page</title>
+    <main>
+        <body>
+            <style>
+
+                .back-video{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    z-index:-1;
+
+                }
+                @media (min-aspect-ratio:16/9){
+                    .back-video{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                @media (max-aspect-ratio:16/9){
+                    .back-video{
+                        width: auto;
+                        height: 100%;
+                    }
+                }
+                nav {
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    align-items: end;
+                    justify-content:right; /* Align the ul to the right */
+            
+                    }
+
+                nav ul {
+                    padding: 0; 
+                }
+
+                nav ul li {
+                    list-style: none;
+                    display: inline-block;
+                    margin-left: 40px;
+                    margin-top: 40px;
+                }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: salmon;
+                    font-size: 20px;
+                    margin-right: 40px;
+                }
+                .sup {
+                    text-align: center;
+                    margin-top: -180px;
+                    background-color:white;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                }
+
+                .image-container {
+                    display: grid;
+                    grid-template-columns: repeat(3, 2fr); 
+                    gap: 10px; 
+                    grid-auto-rows: 350px;
+                    margin-top: 50px;
+                }
+
+                .image-container img {
+                    max-width: 100%; 
+                    height: auto; 
+                    width: 75%; 
+                    max-height: 300px;
+                    margin-left: 75px;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                    transition: transform 0.2s ease-in-out;
+                    cursor: pointer;
+                }
+                footer{
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    margin-top: -20px;
+                    padding: 40px 80px;
+                }
+                .quote{
+                    text-align: center;
+                    margin-top: 69px;
+                    color: salmon;
+                    font-size:70px;
+                }
+                .btn{
+                    display: inline-block;
+                    padding: 15px 30px; 
+                    background-color: transparent; 
+                    color: salmon; 
+                    text-decoration: none; 
+                    border: 2px solid salmon;
+                    border-radius: 20px; 
+                    cursor: pointer; 
+                    transition: background-color 0.3s ease; 
+                }
+                .button{
+                    margin-left: 650px;
+                    margin-top: -30px;
+                }
+                .one{
+                    margin-left: 480px;
+                    margin-top: 50px;
+                }
+
+            </style>
+            <div class="logo">
+                <img src="https://cdn.glitch.global/c0324384-0a75-434d-ac56-4ee894bf1acc/d2161c63d3344ebf810bd765d0430a67-removebg-preview.png?v=1697301050252">
+            </div>
+            <div>
+                <video autoplay loop muted plays-inline class="back-video">
+                    <source src="https://cdn.glitch.me/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/video%20(2160p).mp4?v=1696853277029" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero">
+                <nav>
+                    <ul>
+                        <li><a href="/home">HOME</a></li>
+                        <li><a href="/events">EVENTS</a></li>
+                        <li><a href="/theme">THEMES</a></li>
+                        <li><a href="/about">ABOUT</a></li>
+                        <li><a href="/contact">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="quote">
+                <p>"We do not remember the <br> days, but rather the <br><b>Moments"</b></p>
+            </div>
+            <div class="button">
+                <a href="/login" class="btn">EXPLORE NOW</a>
+            </div>
+            <div class="one">
+                <img src="https://cdn.glitch.global/c0324384-0a75-434d-ac56-4ee894bf1acc/153602375_padded_logo-removebg-preview.png?v=1697297035002">
+            </div>
+            <div class="sup">
+                <h1>CREATING MEMORABLE EVENTS</h1>
+                <p>Based in Los Angeles, elleaevents designs and executes special occasions shaped to meet the client's style and personality. From large,<br> branded corporate events to intimate weddings and everything in between, Elle Anderson and her team provide unique insights that will<br> make your big day unforgettable.</p>
+                <div class="image-container">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-asad-photo-maldives-169198.jpg?v=1696855477582">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-thirdman-7600387.jpg?v=1696855519953">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-pixabay-265856.jpg?v=1696855550602">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-matheus-bertelli-16935894.jpg?v=1696855583464">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-rdne-stock-project-9214972.jpg?v=1696855624555">
+                    <img src="https://cdn.glitch.global/edd1cf7f-228a-4c52-8f9c-e62863a6b6c6/pexels-cottonbro-studio-3171837.jpg?v=1696856271253">
+                </div>
+            </div>
+            <footer>
+                <h2 style="color: white;">CONTACT US</h2>
+                <h3>Owners :- fghjk</h3>
+                <h3>Gmail :- asdfgh@gmail.com</h3>
+                <h3>Phone No :- +9154663890-08</h3>
+                <h3>Linkdin :- sdfghj</h3>
+            </footer>
+        </body>
+    </main>
+</html>
