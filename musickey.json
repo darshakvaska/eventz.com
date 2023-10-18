@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "telegrambot-a6edd",
+  "private_key_id": "c1e170e6ffe49574c1cb5afbb8511594045faa85",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVx0of2TGMyAUk\ntnn6lyLkMX2jtXdi1+lNx6nvLXQsgknDCYGtVgql2A+CoLZ46AyiOzSV3gnxkXWD\nZMO1RbZXPSSTvbPvLM6f4QjbePGZ9vR1eQTx3tDYwYU45P9YP0v768HVO+Bpt5Zq\n5XNb3o1LDFnWF5FXuqvW6vJ40MH6X/6CGBYVWRMNVXbKh+PEfedIDwu8KyRB/wTA\nsOyk+WljpxmgshVyg0qCogR3NxbAuPMUjFDFRzNwJTRU2mQoh6Qsiu9ZT1Vx97Qp\nfVSpLD9bpDYdoAL8P2BK4+5+VRgR42btGy11QHh8ySO9QSNOdZLt6or9mAFmB23z\nDcEd8AYVAgMBAAECggEADXv/GcguPxuPcNPjw3c3Yl5uzDM86cAFvXwRJNQ1+5K8\n9VpK/YnWV8Srock3s/kAcavmCBKpMj1txKZyo84Bujn8mHxtoPIEwdfvd5cxjM0j\neVTIsjr5lcU10oi7RIU66pPh4OyLHg/6+G4rBcn2w/DuVQ9H1y6f+olNAcA6jsDU\nIU8n9XNpXLVUdRoPld1bOSlSA5I/R1YyF5xVv1iVqUh6Rpdqi8RWXGnK36OGa8A7\n8xJOWXCAZuOCpVrSQ99Hy4HD7aPEFhePR6nL0BvclIuh5329Cj2eAoTJ95NYDf11\n+ZLmNUhf650pIKlzwky2C8covpq2gMnXVqzrvSi5BwKBgQD05pWZ1ezIM2l3dj5j\nVb4Hn5+vhEu5IV2tIyO/xAZjYcgjBvmZRbGjwHCtra4JFEfKqFBDVZY2MM+FFQMy\nrGRbMTRMD8M3Jvy/HZE5HYCEubg8estRWCy8a/LZK7RXCOEyTiKYOTbBXFV2Y0+V\ncJx0GWfuaqYvoe0v/cZKP59WpwKBgQDfd51y3o4V78qLxp2JZWmNCNqrqxLWm859\n/efWGzvkQSHSO/CAMGW5P8s4/mr2iWbdjbYjWpqSIQwKKwOhKPndlLMJ1epuVVLU\npPj9dvyDQQWy8qr2fEjfn3peQv4U7+/ocokAkKrxTw7X6sxsQ/AyuvZnvlFGVcbw\n5eUGVx5Q4wKBgDYG8JYBhb0c6nV6VoUfk06nPllAPFxZKgtaJzbVDfu6xKZFkabo\noynW+IS4Ph6upK/mtd5E8WB/ICjh29TAB1u+3SSyjYSLS1L2OOV6xrGBL03YYSZO\n53+h6O9UHvLceKHabvNaG+RIdGorupDjSQCr4ivMx2DWvjbKK4aRxpsdAoGATfKf\nTQ4saaJ2+EKTePWS18sa236U158JbBFA6QIe5gOCFJ8ryMsY8IE8FelIzi4nX2iq\n+7IC8K3uUS2n2nM8lPnlaazgVRQWDG5vG5qBghcQMddLoya/FKHAQVkE37DB8kbh\nWv0bY4i8GLyiCbG4+zkT8iQEnZAWELlgJdIFlRkCgYEAmzwkJLQ3UR0GgdTekzDr\newVKvHjgEd7a40X4NGhrNTrWOzXaDygaoQjViM3rZQSROhyvdWarZd1jZTQlNLlz\nXKM9YX+h1rm1vmxL3mNcUXK81A6IUx4oc4HQFUAcxBXDClmJvkUOxIn2exk0qmet\nQXdxte3Rw1y6P/p3PdC7e7Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bmnod@telegrambot-a6edd.iam.gserviceaccount.com",
+  "client_id": "102967808547339353582",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bmnod%40telegrambot-a6edd.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
